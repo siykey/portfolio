@@ -98,8 +98,8 @@ a:hover, a:active {
 
 #crop-to-fit {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: top center;
+    align-items: top center;
     overflow: hidden;
 }
 

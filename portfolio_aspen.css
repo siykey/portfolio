@@ -99,8 +99,7 @@ a:hover, a:active {
 #crop-to-fit {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    margin: -8px 0px 0px 0px;
+    align-items: center;
     overflow: hidden;
 }
 

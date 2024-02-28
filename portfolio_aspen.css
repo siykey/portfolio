@@ -98,7 +98,7 @@ a:hover, a:active {
 
 #crop-to-fit {
     display: flex;
-    justify-content: center;
+    justify-content: cover;
     align-items: top center;
     overflow: hidden;
 }

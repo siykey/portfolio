@@ -2,9 +2,23 @@
     background-color: #200f25;
 }
 
+@font-face {
+    font-family: 'rushford_cleanregular';
+    src: url('rushfordclean-rgz89-webfont.woff2') format('woff2'), url('rushfordclean-rgz89-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FjallaOne-Regular';
+    src: url('FjallaOne-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
     color: #ff6200;
-    font-family: 'Rushford Printed';
+    font-family: 'rushford_cleanregular';
     text-align: center;
     font-size: 80px;
     line-height: 45px;
@@ -12,21 +26,21 @@ h1 {
 
 h2 {
     color: #ff8b00;
-    font-family: 'Rushford Clean';
+    font-family: 'rushford_cleanregular';
     font-size: 50px;
     line-height: 40px;
 }
 
 h3 {
     color: #ff6200;
-    font-family: 'Rushford Clean';
+    font-family: 'rushford_cleanregular';
     font-size: 35px;
     line-height: 35px;
 }
 
 p {
     color: #ff8b00;
-    font-family: 'Fjalla One';
+    font-family: 'FjallaOne-Regular';
     font-size: 25px;
     line-height: 30px;
 }
@@ -65,7 +79,7 @@ a:hover, a:active {
 }
 
 .title {
-    margin-top: 9%; 
+    margin-top: 9%;
 }
 
 .icons {
@@ -122,10 +136,10 @@ a:hover, a:active {
     justify-content: center;
 }
 
-#foot > div {
-    padding: 10px;
-    text-align: center;
-}
+    #foot > div {
+        padding: 10px;
+        text-align: center;
+    }
 
 #footp {
     color: #50245d;
@@ -140,17 +154,17 @@ a:hover, a:active {
     justify-content: center;
 }
 
-.playlist-parent > playlist {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: top;
-    align-items: top;
-}
-
-    .playlist > div {
-        flex-direction: column;
-        text-align: left;
-        padding: 6px;
-        max-width: 403px;
+    .playlist-parent > playlist {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: top;
+        align-items: top;
     }
+
+.playlist > div {
+    flex-direction: column;
+    text-align: left;
+    padding: 6px;
+    max-width: 403px;
+}
